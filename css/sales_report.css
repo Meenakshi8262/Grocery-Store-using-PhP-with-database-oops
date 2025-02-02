@@ -1,0 +1,147 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+/* Search Bar */
+.search-bar {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Container Style */
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Textarea for report */
+.report-textarea {
+    width: 100%;
+    height: 300px;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Button Styling */
+.button-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+/* Updated .report-textarea for a more modern look */
+.report-textarea {
+    width: 100%;
+    height: 300px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Subtle light grey background */
+    border: 1px solid #ddd;
+    border-radius: 12px; /* Softer rounded corners */
+    resize: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: #495057; /* Darker text color for readability */
+    line-height: 1.6; /* Improve line spacing for better readability */
+    transition: all 0.3s ease;
+}
+
+/* Focus state with a smooth green border and inner glow */
+.report-textarea:focus {
+    border-color: #28a745; /* Soft green border on focus */
+    background-color: #ffffff; /* White background on focus */
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.2); /* Soft green glow */
+    outline: none;
+}
+
+/* Read-only state with a more muted style */
+.report-textarea[readonly] {
+    font-size: 20px;
+    background-color: #fff284;
+    color: #0c0809;
+    cursor: not-allowed;
+}
+/* Hover effect with a slight border change */
+.report-textarea:hover {
+    border-color: #28a745; /* Green border on hover */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.15); /* Light green shadow */
+}
+
+/* For extra visual impact, smooth transitions for focus/hover */
+.report-textarea {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}

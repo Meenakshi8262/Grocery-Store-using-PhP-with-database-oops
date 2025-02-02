@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "price": 2,
+        "quantity": 74
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "price": 1,
+        "quantity": 78
+    },
+    {
+        "name": "Fresh Kivi",
+        "price": "56",
+        "quantity": 5
+    },
+    {
+        "name": "Mango",
+        "price": "98",
+        "quantity": 12
+    },
+    {
+        "name": "Sugarcan",
+        "price": "85",
+        "quantity": 78
+    }
+]
